@@ -11,46 +11,97 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-app.get('/freebitcoin', function (req, res) {
-    res.redirect("https://freebitco.in/?r=2080502&tag=youtube");
-});
-
-app.get('/coinbase', function (req, res) {
-    res.redirect("https://www.coinbase.com/join/56af7610fa5de309f4000257");
-});
-
-app.get('/appbitcoingratis', function (req, res) {
-    var file = path.join(publicDir, 'assets/apk/freebitcoin-faceads.apk');
-    res.download(file);
-});
-
-app.get('/pt', function (req, res) {
-    var string = encodeURIComponent('pt');
-    res.redirect('/?lang=' + string);
-});
-
-
-app.get('/freebitcoin', function (req, res) {
-    var obj = fs.readFileSync(path.join(publicDir, 'freebitcoin.html'), 'utf8');
+app.get('/', function (req, res) {
+    var obj = fs.readFileSync(path.join(publicDir, 'index.html'), 'utf8');
+    if (req.query.lang == "en") {}
     res.send(obj);
 });
 
-
-app.get('/converter', function (req, res) {
-    var obj = fs.readFileSync(path.join(publicDir, 'converter.html'), 'utf8');
-    res.send(obj);
+app.get('/app/freebitcoin', function (req, res) {
+    var nomeapk = req.query.r == "" ? "freebitcoin" : "freebitcoin-" + req.query.r;
+    res.download(path.join(publicDir, 'assets/apk/' + nomeapk + '.apk'));
 });
 
-app.get('/conversor', function (req, res) {
-    var obj = fs.readFileSync(path.join(publicDir, 'conversor.html'), 'utf8');
-    res.send(obj);
-});
+// app.get('/freebitcoin', function (req, res) {
+//     res.redirect("https://freebitco.in/?r=2080502&tag=youtube");
+// });
 
-app.get('/tutorialbonusbitcoin', function (req, res) {
-    var obj = fs.readFileSync(path.join(publicDir, 'tutorialbonusbitcoin.html'), 'utf8');
-    res.send(obj);
-});
+// app.get('/coinbase', function (req, res) {
+//     res.redirect("https://www.coinbase.com/join/56af7610fa5de309f4000257");
+// });
 
+// app.get('/pt', function (req, res) {
+//     var string = encodeURIComponent('pt');
+//     res.redirect('/?lang=' + string);
+// });
+
+
+// app.get('/ip', function (req, res) {
+//     var obj = fs.readFileSync(path.join(publicDir, 'ip.html'), 'utf8');
+//     res.send(obj);
+// });
+
+// app.get('/ipbr', function (req, res) {
+//     var obj = fs.readFileSync(path.join(publicDir, 'ipbr.html'), 'utf8');
+//     res.send(obj);
+// });
+
+// app.get('/faucets', function (req, res) {
+//     var obj = fs.readFileSync(path.join(publicDir, 'faucets.html'), 'utf8');
+//     res.send(obj);
+// });
+
+// app.get('/apps', function (req, res) {
+//     var obj = fs.readFileSync(path.join(publicDir, 'apps.html'), 'utf8');
+//     res.send(obj);
+// });
+
+// app.get('/apps-pt', function (req, res) {
+//     var obj = fs.readFileSync(path.join(publicDir, 'apps-pt.html'), 'utf8');
+//     res.send(obj);
+// });
+
+// app.get('/apps-steem', function (req, res) {
+//     var obj = fs.readFileSync(path.join(publicDir, 'apps-steem.html'), 'utf8');
+//     res.send(obj);
+// });
+
+// //Bonus faucet
+// app.get('/privacy-policy-recorder', function (req, res) {
+//     var obj = fs.readFileSync(path.join(publicDir, 'privacypolicyrecorder.html'), 'utf8');
+//     res.send(obj);
+// });
+
+// app.get('/freebitcoin', function (req, res) {
+//     var obj = fs.readFileSync(path.join(publicDir, 'freebitcoin.html'), 'utf8');
+//     res.send(obj);
+// });
+
+
+// app.get('/converter', function (req, res) {
+//     var obj = fs.readFileSync(path.join(publicDir, 'converter.html'), 'utf8');
+//     res.send(obj);
+// });
+
+// app.get('/conversor', function (req, res) {
+//     var obj = fs.readFileSync(path.join(publicDir, 'conversor.html'), 'utf8');
+//     res.send(obj);
+// });
+
+// app.get('/tutorialbonusbitcoin', function (req, res) {
+//     var obj = fs.readFileSync(path.join(publicDir, 'tutorialbonusbitcoin.html'), 'utf8');
+//     res.send(obj);
+// });
+
+// app.get('/xapo-list-faucet', function (req, res) {
+//     var obj = fs.readFileSync(path.join(publicDir, 'xapolistfaucet.html'), 'utf8');
+//     res.send(obj);
+// });
+
+// app.get('/bitcoincollector', function (req, res) {
+//     var obj = fs.readFileSync(path.join(publicDir, 'bitcoincollector.html'), 'utf8');
+//     res.send(obj);
+// });
 
 var port = process.env.PORT || 8080;
 app.listen(port);
