@@ -37,7 +37,7 @@ function getParameterByName(name, url) {
 
 function linkFreebitcoin() {
     var location = getParameterByName("l", window.location.href);
-    var nomeapk = location == "" ? "freebitcoin" : "freebitcoin-" + location;
+    var nomeapk = location == "" || location == null || location == undefined ? "freebitcoin" : "freebitcoin-" + location;
     document.getElementById('download').src = 'assets/apk/' + nomeapk + '.apk';
 }
 
