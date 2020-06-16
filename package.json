@@ -1,0 +1,17 @@
+{
+  "name": "divulgacao",
+  "version": "1.0.0",
+  "description": "Divulgação de aplicações",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "*",
+    "path": "*"
+  },
+  "author": "Claudinei",
+  "license": "ISC"
+}
