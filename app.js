@@ -17,10 +17,10 @@ app.get('/', function (req, res) {
     res.send(obj);
 });
 
-app.get('/app/freebitcoin', function (req, res) {
-    var nomeapk = req.query.r == "" ? "freebitcoin" : "freebitcoin-" + req.query.r;
-    res.download(path.join(publicDir, 'assets/apk/' + nomeapk + '.apk'));
-});
+// app.get('/app/freebitcoin', function (req, res) {
+//     var nomeapk = req.query.r == "" ? "freebitcoin" : "freebitcoin-" + req.query.r;
+//     res.download(path.join(publicDir, 'assets/apk/' + nomeapk + '.apk'));
+// });
 
 // app.get('/freebitcoin', function (req, res) {
 //     res.redirect("https://freebitco.in/?r=2080502&tag=youtube");

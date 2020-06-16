@@ -18,15 +18,27 @@ function gotolink(mob, web) {
 }
 
 function pageIndex(anchor) {
-    var url = "http://www.makemoney.digital/";
+    var url = "https://divulgacao.herokuapp.com";
     if (anchor) {
         url += '#' + anchor;
     }
     location.href = url;
 }
 
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
 function linkFreebitcoin() {
-    gotolink("https://bit.ly/apkfreebitcoin");
+    var location = getParameterByName("l", window.location.href);
+    var nomeapk = location == "" ? "freebitcoin" : "freebitcoin-" + location;
+    document.getElementById('download').src = 'assets/apk/' + nomeapk + '.apk';
 }
 
 // function linkFlappyGhost() {
