@@ -26,6 +26,15 @@ body {
     margin-bottom: 1.57rem;
 }
 
+.warning-text{
+  font-size:0.78rem;
+  font-style: italic;
+}
+
+hr {
+    border-top: 1px solid rgba(2,2,2,.3)
+}
+
 .card-subtitle {
     margin-bottom: 0;
     font-style: italic;
