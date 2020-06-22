@@ -26,13 +26,13 @@ body {
     margin-bottom: 1.57rem;
 }
 
-.warning-text{
-  font-size:0.78rem;
-  font-style: italic;
+.warning-text {
+    font-size: 0.78rem;
+    font-style: italic;
 }
 
 hr {
-    border-top: 1px solid rgba(2,2,2,.3)
+    border-top: 1px solid rgba(2, 2, 2, .3)
 }
 
 .card-subtitle {
@@ -63,7 +63,7 @@ hr {
     text-align: center;
     border: 0;
     background-color: #333333;
-    box-shadow: 10px 10px 10px #111111;
+    box-shadow: 10px 10px 10px #000000;
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 0;
