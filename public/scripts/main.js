@@ -38,10 +38,5 @@ function getParameterByName(name, url) {
 function linkFreebitcoin() {
     var location = getParameterByName("l", window.location.href);
     var nomeapk = location == "" || location == null || location == undefined ? "freebitcoin" : "freebitcoin-" + location;
-    document.getElementById('download').src = 'assets/apk/' + nomeapk + '.apk';
+    document.getElementById('download').src = 'apk/' + nomeapk + '.apk';
 }
-
-// function linkFlappyGhost() {
-//     gotolink("market://details?id=com.coffeepotion.flappyghost",
-//         "https://play.google.com/store/apps/details?id=com.coffeepotion.flappyghost");
-// }

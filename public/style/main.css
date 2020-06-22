@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(to right top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 0 4.1666666667em, linear-gradient(to left top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 0 4.1666666667em, linear-gradient(to right bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 0 4.1666666667em, linear-gradient(to left bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 0 4.1666666667em, linear-gradient(to right top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 0 -4.1666666667em, linear-gradient(to left top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 0 -4.1666666667em, linear-gradient(to right bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 0 -4.1666666667em, linear-gradient(to left bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 0 -4.1666666667em, linear-gradient(to right top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) -4.1666666667em 0, linear-gradient(to left top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) -4.1666666667em 0, linear-gradient(to right bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) -4.1666666667em 0, linear-gradient(to left bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) -4.1666666667em 0, linear-gradient(to right top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 4.1666666667em 0, linear-gradient(to left top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 4.1666666667em 0, linear-gradient(to right bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 4.1666666667em 0, linear-gradient(to left bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 4.1666666667em 0, linear-gradient(to right top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 2.5em 1.6666666667em, linear-gradient(to left top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 2.5em 1.6666666667em, linear-gradient(to right bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 2.5em 1.6666666667em, linear-gradient(to left bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 2.5em 1.6666666667em, linear-gradient(to right top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 2.5em 3.3333333333em, linear-gradient(to left top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 2.5em 3.3333333333em, linear-gradient(to right bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 2.5em 3.3333333333em, linear-gradient(to left bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 2.5em 3.3333333333em, linear-gradient(to right top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 1.6666666667em 2.5em, linear-gradient(to left top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 1.6666666667em 2.5em, linear-gradient(to right bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 1.6666666667em 2.5em, linear-gradient(to left bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 1.6666666667em 2.5em, linear-gradient(to right top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 3.3333333333em 2.5em, linear-gradient(to left top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 3.3333333333em 2.5em, linear-gradient(to right bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 3.3333333333em 2.5em, linear-gradient(to left bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 3.3333333333em 2.5em, linear-gradient(to right top, #97ff6b 2%, rgba(151, 255, 107, 0) 2%) 2.5em 0, linear-gradient(to left top, #97ff6b 2%, rgba(151, 255, 107, 0) 2%) 2.5em 0, linear-gradient(to right bottom, #97ff6b 2%, rgba(151, 255, 107, 0) 2%) 2.5em 0, linear-gradient(to left bottom, #97ff6b 2%, rgba(151, 255, 107, 0) 2%) 2.5em 0, linear-gradient(to right top, #97ff6b 2%, rgba(151, 255, 107, 0) 2%) 0 2.5em, linear-gradient(to left top, #97ff6b 2%, rgba(151, 255, 107, 0) 2%) 0 2.5em, linear-gradient(to right bottom, #97ff6b 2%, rgba(151, 255, 107, 0) 2%) 0 2.5em, linear-gradient(to left bottom, #97ff6b 2%, rgba(51, 51, 51, 0) 2%) 0 2.5em, radial-gradient(circle, rgba(0, 0, 0, 0) 52%, #000000 54%, #000000 55.5%, rgba(0, 0, 0, 0) 55.5%, rgba(0, 0, 0, 0) 65%, #000000 66%, #000000 69%, rgba(0, 0, 0, 0) 75%) 0 0, radial-gradient(circle, rgba(0, 0, 0, 0) 52%, #000000 54%, #000000 55.5%, rgba(0, 0, 0, 0) 55.5%, rgba(0, 0, 0, 0) 65%, #000000 66%, #000000 69%, rgba(0, 0, 0, 0) 75%) 2.5em 2.5em, linear-gradient(to right top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 0 0, linear-gradient(to left top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 0 0, linear-gradient(to right bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 0 0, linear-gradient(to left bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 0 0, linear-gradient(to right top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 2.5em 2.5em, linear-gradient(to left top, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 2.5em 2.5em, linear-gradient(to right bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 2.5em 2.5em, linear-gradient(to left bottom, #00ccff 2%, rgba(0, 204, 255, 0) 2%) 2.5em 2.5em, linear-gradient(to right top, #97ff6b 4%, rgba(151, 255, 107, 0) 4%) 0 0, linear-gradient(to left top, #97ff6b 4%, rgba(151, 255, 107, 0) 4%) 0 0, linear-gradient(to right bottom, #97ff6b 4%, rgba(151, 255, 107, 0) 4%) 0 0, linear-gradient(to left bottom, #97ff6b 4%, rgba(151, 255, 107, 0) 4%) 0 0, linear-gradient(to right top, #97ff6b 4%, rgba(151, 255, 107, 0) 4%) 2.5em 2.5em, linear-gradient(to left top, #97ff6b 4%, rgba(151, 255, 107, 0) 4%) 2.5em 2.5em, linear-gradient(to right bottom, #97ff6b 4%, rgba(151, 255, 107, 0) 4%) 2.5em 2.5em, linear-gradient(to left bottom, #97ff6b 4%, rgba(151, 255, 107, 0) 4%) 2.5em 2.5em, linear-gradient(to right top, #333333 7%, rgba(51, 51, 51, 0) 7%) 0 0, linear-gradient(to left top, #333333 7%, rgba(51, 51, 51, 0) 7%) 0 0, linear-gradient(to right bottom, #333333 7%, rgba(51, 51, 51, 0) 7%) 0 0, linear-gradient(to left bottom, #333333 7%, rgba(51, 51, 51, 0) 7%) 0 0, linear-gradient(to right top, #333333 7%, rgba(51, 51, 51, 0) 7%) 2.5em 2.5em, linear-gradient(to left top, #333333 7%, rgba(51, 51, 51, 0) 7%) 2.5em 2.5em, linear-gradient(to right bottom, #333333 7%, rgba(51, 51, 51, 0) 7%) 2.5em 2.5em, linear-gradient(to left bottom, #333333 7%, rgba(51, 51, 51, 0) 7%) 2.5em 2.5em;
+    background-size: 5em 5em;
+    background-color: #333333;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: 3px;
+    padding: 0.75rem 2.1875rem;
+    font-size: 0.75rem;
+    background-color: #222222;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.main_area {
+    background-color: #3498db;
+    box-shadow: 0px 0px 21px 2px #ccc;
+}
+
+.card-text {
+    color: white;
+    font-size: 0.875rem;
+    margin-bottom: 1.57rem;
+}
+
+.card-subtitle {
+    margin-bottom: 0;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.875rem;
+    font-family: "Lora";
+    color: #dedede;
+    margin-top: -1rem;
+    line-height: 1.7857;
+    padding-bottom: 1rem;
+    padding-top: 0.3125rem;
+}
+
+.card-title {
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    font-family: "Prosto One";
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1.2825;
+    padding-top: 1rem;
+    margin-bottom: 1.5625rem;
+}
+
+.card {
+    text-align: center;
+    border: 0;
+    background-color: #333333;
+    box-shadow: 10px 10px 10px #111111;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+}
