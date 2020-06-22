@@ -31,6 +31,10 @@ body {
     font-style: italic;
 }
 
+.card-block {
+    padding: 0 2rem 2rem 2rem;
+}
+
 hr {
     border-top: 1px solid rgba(2, 2, 2, .3)
 }
