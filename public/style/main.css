@@ -26,6 +26,10 @@ body {
     margin-bottom: 1.57rem;
 }
 
+.card-block{
+    padding: 0 2rem 2rem 2rem;
+}
+
 .warning-text{
   font-size:0.78rem;
   font-style: italic;
