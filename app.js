@@ -18,15 +18,15 @@ app.get('/', function (req, res) {
 });
 
 app.get('/app/direto/freebitcoin', function (req, res) {
-    res.download(path.join(publicDir, 'assets/apk/freebitcoin.apk'));
+    res.download(path.join(publicDir, 'apk/freebitcoin.apk'));
 });
 
 app.get('/app/facebook/freebitcoin', function (req, res) {
-    res.download(path.join(publicDir, 'assets/apk/freebitcoin-facebook.apk'));
+    res.download(path.join(publicDir, 'apk/freebitcoin-facebook.apk'));
 });
 
 app.get('/app/youtube/freebitcoin', function (req, res) {
-    res.download(path.join(publicDir, 'assets/apk/freebitcoin-youtube.apk'));
+    res.download(path.join(publicDir, 'apk/freebitcoin-youtube.apk'));
 });
 
 var port = process.env.PORT || 8080;
