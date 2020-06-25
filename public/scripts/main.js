@@ -9,6 +9,15 @@ window.mobilecheck = function () {
     return check;
 };
 
+$(document).ready(function () {
+    if (window.mobilecheck()) {
+
+    } else {
+        $("#downloadFreebitcoin").remove();
+        $("#lblAlternativa").remove();
+    }
+});
+
 function gotolink(mob, web) {
     if (window.mobilecheck()) {
         location.href = mob;
@@ -35,8 +44,17 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
-function linkFreebitcoin() {
+function downloadFreebicoinApp() {
     var location = getParameterByName("l", window.location.href);
-    var nomeapk = location == "" || location == null || location == undefined ? "freebitcoin" : "freebitcoin-" + location;
-    document.getElementById('download').src = 'apk/' + nomeapk + '.apk';
+    // var nomeapk = location == "" || location == null || location == undefined ? "freebitcoin" : "freebitcoin-" + location;
+    // document.getElementById('download').src = 'apk/' + nomeapk + '.apk';
+    location = location == "" || location == null || location == undefined ? "direto" : location;
+    location = location == "facebook" ? "faceads" : location;
+    location.href = "https://bit.ly/freebitcoin_" + location + "_app";
+}
+
+function goToFreebitcoinWebSite() {
+    var location = getParameterByName("l", window.location.href);
+    location = location == "" || location == null || location == undefined ? "direto" : location;
+    location.href = "https://bit.ly/freebitcoin_" + location + "_website";
 }
