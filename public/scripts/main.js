@@ -50,11 +50,11 @@ function downloadFreebicoinApp() {
     // document.getElementById('download').src = 'apk/' + nomeapk + '.apk';
     location = location == "" || location == null || location == undefined ? "direto" : location;
     location = location == "facebook" ? "faceads" : location;
-    location.href = "https://bit.ly/freebitcoin_" + location + "_app";
+    window.location.href = "https://bit.ly/freebitcoin_" + location + "_app";
 }
 
 function goToFreebitcoinWebSite() {
     var location = getParameterByName("l", window.location.href);
     location = location == "" || location == null || location == undefined ? "direto" : location;
-    location.href = "https://bit.ly/freebitcoin_" + location + "_website";
+    window.location.href = "https://bit.ly/freebitcoin_" + location + "_website";
 }
