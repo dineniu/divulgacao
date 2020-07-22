@@ -58,3 +58,11 @@ function goToFreebitcoinWebSite() {
     location = location == "" || location == null || location == undefined ? "direto" : location;
     window.location.href = "https://bit.ly/freebitcoin_" + location + "_website";
 }
+
+function goToNeiOWebSite() {
+    window.location.href = "https://bit.ly/cadastro-neio";
+}
+
+function goToNeiOWebSite() {
+    window.location.href = "https://bit.ly/registrar-binance";
+}

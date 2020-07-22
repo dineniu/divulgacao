@@ -16,6 +16,10 @@ body {
     margin: 5px;
 }
 
+.mbr-cards {
+    margin-top: 15px;
+}
+
 .main_area {
     background-color: #3498db;
     box-shadow: 0px 0px 21px 2px #ccc;
