@@ -63,6 +63,10 @@ function goToNeiOWebSite() {
     window.location.href = "https://bit.ly/cadastro-neio";
 }
 
-function goToNeiOWebSite() {
+function goToBinanceWebSite() {
     window.location.href = "https://bit.ly/registrar-binance";
+}
+
+function goToCoinbaseWebSite() {
+    window.location.href = "https://bit.ly/registrar-coinbase";
 }
